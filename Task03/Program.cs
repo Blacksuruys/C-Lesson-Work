@@ -1,6 +1,6 @@
 ﻿Console.WriteLine("Введите день недели");
 int number = Convert.ToInt32(Console.ReadLine());
-else if (number == 1){
+if (number == 1){
     Console.WriteLine("Понедельник");
 }
 else if (number == 2){
