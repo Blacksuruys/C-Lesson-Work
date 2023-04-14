@@ -1,10 +1,10 @@
-﻿Console.WriteLine("Введите трехзначное число");
+﻿Console.WriteLine ("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
-if ((number > 100) & (number < 999))
+if (number%2 == 0)
 {
-    Console.WriteLine(number = number % 10);
+    Console.WriteLine("Число четное");
 }
 else
 {
-    Console.WriteLine("Число не трехзначное");
+Console.WriteLine("Число не четное");
 }
