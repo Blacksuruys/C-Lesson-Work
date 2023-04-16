@@ -2,11 +2,11 @@
 int numberA = Convert.ToInt32(Console.ReadLine());
 int numberB = Convert.ToInt32(Console.ReadLine());
 int max = Convert.ToInt32(Console.ReadLine());
-if (numberA > max) ;
+if (numberA > max)
 {
     numberA = max;
 }
-if (numberB > max) ;
+if (numberB > max)
 {
     numberB = max;
 }
