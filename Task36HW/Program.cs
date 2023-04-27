@@ -29,7 +29,7 @@ int SumOdd(int[] array)
     return sum;
 }
 
-int[] array = CreateArrayRndInt(4, -20, 20);
+int[] array = CreateArrayRndInt(5, -25, 25);
 int result = SumOdd(array);
 Console.Write("[");
 PrintArray(array);
