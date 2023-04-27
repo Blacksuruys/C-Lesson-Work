@@ -45,7 +45,7 @@ double Difference(double max, double min)
     return max - min;
 }
 
-double[] array = CreateArrayRndDouble(4, 0, 20);
+double[] array = CreateArrayRndDouble(5, 0, 25);
 double max = MaxNumberInArray(array);
 double min = MinNumberInArray(array);
 double difference = Math.Round(Difference(max, min), 1);
