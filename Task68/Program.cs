@@ -17,4 +17,4 @@ int numberA = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите целое положительное число: ");
 int numberB = Convert.ToInt32(Console.ReadLine());
 int akkerman = Akkerman(numberA, numberB);
-Console.WriteLine(akkerman);
+Console.WriteLine(akkerman); 
